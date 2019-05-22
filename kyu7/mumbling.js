@@ -17,6 +17,5 @@ function accum(s) {
     counter++;
     result.push(letter.repeat(counter).toLowerCase());
   }
-  result = result.map(x => x.charAt(0).toUpperCase() + x.slice(1));
-  return result.join("-");
+  return result.map(x => x.charAt(0).toUpperCase() + x.slice(1)).join("-");
 }
